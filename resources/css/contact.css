@@ -1,0 +1,20 @@
+/* heading */
+
+.start-learning {
+  position: relative;
+  top: 64px;
+}
+
+.picture-banner {
+  display: flex;
+  width: 100%;
+}
+
+.picture-banner img {
+  max-width: 33.33%;
+}
+
+.heading h1 {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 600;
+}
