@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="27px"
+   height="27px"
+   viewBox="0 0 27 27"
+   version="1.1"
+   id="svg931"
+   sodipodi:docname="ic-on-campus-color.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata935">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>ic_onCampus</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     id="namedview933"
+     showgrid="false"
+     inkscape:zoom="8.7407407"
+     inkscape:cx="13.5"
+     inkscape:cy="13.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="ic_onCampus" />
+  <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title906">ic_onCampus</title>
+  <desc
+     id="desc908">Created with Sketch.</desc>
+  <defs
+     id="defs923">
+    <filter
+       x="-50%"
+       y="-50%"
+       width="200%"
+       height="200%"
+       filterUnits="objectBoundingBox"
+       id="filter-1">
+      <feOffset
+         dx="0"
+         dy="2"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset910" />
+      <feGaussianBlur
+         stdDeviation="2"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur912" />
+      <feColorMatrix
+         values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0"
+         type="matrix"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix914" />
+      <feMerge
+         id="feMerge920">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode916" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode918" />
+      </feMerge>
+    </filter>
+  </defs>
+  <g
+     id="OPt-2"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="prog2_pro3_Mobile-Portrait_opt2-Copy-2"
+       transform="translate(-93.000000, -18.000000)"
+       fill="#000000">
+      <g
+         id="nav">
+        <g
+           id="Group-6"
+           filter="url(#filter-1)"
+           style="fill:#000000;fill-opacity:1">
+          <g
+             id="ic_onCampus"
+             transform="translate(96.000000, 20.000000)"
+             style="fill:#000000;fill-opacity:1">
+            <path
+               d="M20,2 L20,4 L15,4 L11.53,9 L14,9 L14,11 L12.46,11 L16.17,19 L13.97,19 L13.04,17 L4.38,17 L3.35,19 L1.1,19 L5.23,11 L5,11 C4.55,11 4.17,10.7 4.04,10.3 L0.87,0.84 L1.82,0.5 C2.34,0.34 2.91,0.63 3.08,1.15 L5.72,9 L10.1,9 L13.57,4 L10,4 L10,2 L20,2 L20,2 Z M7.5,11 L5.42,15 L12.11,15 L10.26,11 L7.5,11 Z"
+               id="Shape"
+               style="fill:#617200;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
