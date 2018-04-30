@@ -14,13 +14,11 @@
   </head>
   <body>
     <header>
-    <!-- Navigation Bar-->
-      <a href="./index.html">
-        <div class="logo" role="presentation">
-          <img src="./resources/images/ic-logo-color.svg" alt="Colmar academy logo"/>
-          <p><span>Colmar</span>Academy</p>
-        </div>
-      </a>
+      <!-- Navigation Bar-->
+      <a href="./index.html"><div class="logo" role="presentation">
+        <img src="./resources/images/ic-logo-color.svg" alt="Colmar academy logo"/>
+        <p><span>Colmar</span>Academy</p>
+        </div></a>
       <nav>
         <ul role="presentation">
           <li><a href="#">On campus</a></li>
@@ -28,28 +26,45 @@
           <li><a href="#">Online</a></li>
           <li class="nav-icons"><a href="#"><img src="./resources/images/ic-online-color.svg" alt="computer screen icon"/></a></li>
           <li><a href="#">For companies</a></li>
+          <li><a href="./index.html">Home</a></li>
         </ul>
       </nav>
     </header>
 
     <!-- Banner -->
-
-    <section class="start-learning">
+    <main>
       <div class="picture-banner">
-        <img src="./resources/images/information-orientation-mobile.jpg"/>
+        <img id="firstpic" src="./resources/images/information-orientation-mobile.jpg"/>
         <img src="./resources/images/information-orientation-mobile-rotate.jpeg"/>
-        <img src="./resources/images/information-orientation-mobile.jpg"/>
+        <img id="lastpic" src="./resources/images/information-orientation-mobile.jpg"/>
       </div>
-      <div class="heading" role="presentation">
-        <h1>Start learning</h1>
-        <p>"Curaitur vitae libero in ipsum porttitor consequat. aliquam et commodo lectus, nec consequat neque. sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effiitus dolor consequat, tristique ligula."</p>
+      <div class="presentation" role="presentation">
+        <section class="heading">
+          <h1>Start learning</h1>
+          <p>"Curaitur vitae libero in ipsum porttitor consequat. aliquam et commodo lectus, nec consequat neque. sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, effiitus dolor consequat, tristique ligula."</p>
+        </section>
+
+        <!-- Form -->
+        <section class="form-container">
+          <form action="https://formspree.io/noway109@hotmail.com" method="POST">
+            <div class="row">
+              <label for="name">Full Name:</label>
+              <input type="text" name="name">
+            </div>
+            <div class="row">
+              <label for="email">E-mail:</label>
+              <input type="email" name="_replyto">
+            </div>
+            <div class="row">
+              <label for="msg">Your message:</label>
+              <textarea id="msg" name="user_message" maxlength="50"></textarea>
+            </div>
+            <div class="row">
+              <input type="submit" value="Send">
+            </div>
+          </form>
+        </section>
       </div>
-    </section>
-
-    <!-- Form -->
-    <section class="form-container">
-      
-    </section>
-
+    </main>
   </body>
 </html>
