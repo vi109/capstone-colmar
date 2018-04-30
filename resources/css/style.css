@@ -205,7 +205,7 @@ video {
   align-items: flex-start;
 }
 
-#first-box {
+.first-box {
   margin-top: 1rem;
 }
 
@@ -473,7 +473,7 @@ footer a:hover {
   footer .conditions {
     display: none;
   }
-  #first-box {
+  .first-box {
     margin-top: 0;
   }
 }
