@@ -329,7 +329,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ccffcc /*Fallback */
+  background-color: #d27979; /* Fallback */
   background-color: #c5cd9aff; /* pail green */
   padding: 0 1.5rem;
   color: #cc9900; /* Fallback */
